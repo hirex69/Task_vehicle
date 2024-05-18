@@ -1,0 +1,160 @@
+form {
+    max-width: 100%;
+    margin: 0 auto;
+    
+  }
+  
+  form div {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: flex;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 5px 10px; /* Adjust padding to change button size */
+    font-size: 0.8em;
+    border: none;
+    border-radius: 2px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  .button-gap {
+    margin-right: 10px;
+    font-size: 0.8em;
+    padding-left: 20px;
+    /* Adjust this value to set the desired space between buttons */
+  }
+  
+  
+  button[type="submit"] {
+    background-color: #28a745;
+    height: 50px; /* Adjust height of the button */
+
+    font-size: 0.8em;
+
+  }
+  
+  button[type="button"] {
+    background-color: #255dd4;
+  }
+  button[type="buttons"] {
+    background-color: #dc3545;
+  }
+  
+  .svg-icon.small {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .svg-icon.medium {
+    width: 24px;
+    height: 24px;
+  }
+  
+  
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #218838;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #c82333;
+  }
+  
+  td, th {
+    border: 1px solid black;
+    text-align: center;
+
+
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+
+
+  }
+  
+  td {
+    text-align: center;
+
+  }
+  
+  .scenario-list {
+    margin-top: 20px;
+  }
+  
+  tr {
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  .scenario-form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .form-group {
+    margin-right: 20px;
+  }
+  
+  .form-group label {
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .submit{
+    padding-left: 10px;
+    padding-top: 10px;
+
+  }

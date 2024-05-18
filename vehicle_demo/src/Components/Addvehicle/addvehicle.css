@@ -1,0 +1,108 @@
+
+.container{
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 180px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.show {
+  transform: translateX(0);
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    z-index: 1;
+    height: 100%;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+
+  .show {
+    left: 0;
+  }
+}
+
+.sidebar h2 {
+  margin-top: 10px;
+}
+
+.content {
+  flex: 1;
+  width: 100%; 
+  margin-left: 30px;
+}
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+
+.sidebar ul li a:hover {
+  color: #000;
+  padding: 5px 70px 5px 10px;
+  background-color: rgb(110, 107, 107);
+}
+
+.form-groups {
+  margin-bottom: 15px;
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.form-groups label {
+  flex: 0 0 150px; /* Set label width */
+  margin-right: 15px;
+}
+
+.form-groups input,
+.form-groups select {
+  flex: 1; 
+  padding: 5px;
+}
+
+.form-groups p {
+  margin-top: 5px;
+}
+
+button[type="submit"] {
+  margin-left: 10px;
+  height: 7vh;
+ }
+
+.vehicle{
+padding-left: 170px;
+  padding-top: 10px;
+}
+.lable{
+  height: 9vh;
+}
+
+.labels{
+  padding-top: 5px;
+  margin-bottom: 10px;
+}
+.start{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 730px;
+}
